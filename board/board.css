@@ -1,1 +1,47 @@
 /* CSS declarations go here */
+
+#top-content {
+    background: white;
+    max-width: 220px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 180px;
+    box-shadow: 1px 1px 2px #ddd;
+}
+#top-content h2 {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin:0;
+    padding: 8px;
+    color: #555;
+}
+#top-content-list {
+    padding: 0;
+    height: 149px;
+    list-style: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 0;
+}
+#top-content-list li {
+    padding: 8px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+}
+#top-content-list a {
+    color: #666;
+    text-decoration: none;
+}
+
+#top-content .powered {
+    font-size: 10px;
+    width: 220px;
+    text-align: right;
+    margin-top: 5px;
+}
+#top-content .powered a {
+    color: #222;
+}
