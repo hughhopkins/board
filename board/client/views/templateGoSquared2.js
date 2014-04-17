@@ -1,5 +1,5 @@
 // first, lets get the data using jQuery
-$.getJSON('some sort of url', function(data) {
+$.getJSON('https://api.gosquared.com/now/v3/concurrents?api_key=foo&site_token=bar', function(data) {
   var html = '';
 
   // loop over the list and add each one to html
