@@ -9,5 +9,5 @@ $.getJSON('https://api.gosquared.com/now/v3/overview?api_key=demo&site_token=GSN
   }
 
   // select your list (ul) and insert the HTML into there
-  $('#top-content-list2').html(html);
+  $('#overview-content-list').html(html);
 });
