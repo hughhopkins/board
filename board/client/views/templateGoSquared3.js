@@ -1,5 +1,5 @@
 // first, lets get the data using jQuery
-$.getJSON('https://api.gosquared.com/trends/v2/page?api_key=demo&site_token=GSN-106863-S&callback=?', function(data) {
+$.getJSON('https://api.gosquared.com/now/v3/pages?api_key=demo&site_token=GSN-106863-S&limit=20&callback=?', function(data) {
   var html = '';
 
   // loop over the list and add each one to html
@@ -9,5 +9,5 @@ $.getJSON('https://api.gosquared.com/trends/v2/page?api_key=demo&site_token=GSN-
   }
 
   // select your list (ul) and insert the HTML into there
-  $('#overview-content-list').html(html);
+  $('#test-content-list').html(html);
 });
