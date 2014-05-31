@@ -1,5 +1,31 @@
 /* CSS declarations go here */
 
+
+#misc {
+    background: white;
+    max-width: 220px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 180px;
+    box-shadow: 1px 1px 2px #ddd;
+}
+#misc-list {
+    padding: 0;
+    height: 149px;
+    list-style: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 0;
+}
+#misc-list li {
+    padding: 8px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+}
+
 #top-content {
     background: white;
     max-width: 220px;
@@ -126,4 +152,98 @@
 #test-content-list a {
     color: #666;
     text-decoration: none;
+}
+
+#now-content {
+    background: white;
+    max-width: 220px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 180px;
+    box-shadow: 1px 1px 2px #ddd;
+}
+#now-content h2 {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin:0;
+    padding: 8px;
+    color: #555;
+}
+#now-content-list {
+    padding: 0;
+    height: 149px;
+    list-style: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 0;
+}
+#now-content-list li {
+    padding: 8px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+}
+#now-content-list a {
+    color: #666;
+    text-decoration: none;
+}
+
+#now-content .powered {
+    font-size: 10px;
+    width: 220px;
+    text-align: right;
+    margin-top: 5px;
+}
+#now-content .powered a {
+    color: #222;
+}
+
+/* Geo CSS declarations go here */
+
+#geo-content {
+    background: white;
+    max-width: 220px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 180px;
+    box-shadow: 1px 1px 2px #ddd;
+}
+#geo-content h2 {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin:0;
+    padding: 8px;
+    color: #555;
+}
+#geo-content-list {
+    padding: 0;
+    height: 149px;
+    list-style: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 0;
+}
+#geo-content-list li {
+    padding: 8px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+}
+#geo-content-list a {
+    color: #666;
+    text-decoration: none;
+}
+
+#geo-content .powered {
+    font-size: 10px;
+    width: 220px;
+    text-align: right;
+    margin-top: 5px;
+}
+#geo-content .powered a {
+    color: #222;
 }
