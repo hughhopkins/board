@@ -14,6 +14,8 @@ var mixed = [34, "candy", "blue", 11];
 
 document.getElementById("misc");
 
+/* - chopped for now
+
 console.log(names + two);
 console.log(locations[1]);
 
@@ -30,6 +32,8 @@ for (var i = 1; i < 11; i++) {
 for (var i = 1; i < 11; i += 2) {
   console.log("happy " + i + " birthday");
 };
+
+
 
 //attempt to get into the html - doesn't work but doesn't break. doesn't add anything to the html.
 
@@ -54,4 +58,4 @@ for (var i = 0; i <cities.length; i++) {
     console.log("I know someone called " + cities[i]);
 }
 
-
+end of chop */
