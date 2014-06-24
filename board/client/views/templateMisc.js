@@ -14,6 +14,22 @@ var mixed = [34, "candy", "blue", 11];
 
 document.getElementById("misc");
 
+function hp() {
+  for (var i = 1; i < age; i ++) {
+    console.log("happy " + i + "th birthday");
+  };
+};
+
+var age = 25;
+
+if (age > 24) {
+  hp();
+} else {
+  console.log("not ya fucking birthday")
+};
+
+
+
 /* - chopped for now
 
 console.log(names + two);
@@ -29,9 +45,7 @@ for (var i = 1; i < 11; i++) {
   console.log(i);
 };
 
-for (var i = 1; i < 11; i += 2) {
-  console.log("happy " + i + " birthday");
-};
+
 
 
 
