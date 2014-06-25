@@ -15,12 +15,14 @@ var mixed = [34, "candy", "blue", 11];
 document.getElementById("misc");
 
 function hp() {
-  for (var i = 1; i < age; i ++) {
+  for (var i = 1; i < agePlusOne; i ++) {
     console.log("happy " + i + "th birthday");
   };
 };
 
 var age = 25;
+
+var agePlusOne = age + 1;
 
 if (age > 24) {
   hp();
