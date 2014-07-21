@@ -5,8 +5,12 @@ $.getJSON('https://api.gosquared.com/now/v3/overview?api_key=demo&site_token=GSN
   console.log("visitors = " + data.visitors);
   console.log("active = " + data.active);
   console.log("returning = " + data.returning);
-  var newData = [data.active];
+
+  html += "Vistors online " + data.visitors + " Active vistors online " + data.active + " Returning visitors online " + data.returning;
+
+  var dataTest = data.visitors;
+
+  $('#now-content-list').html(html);
 });
 
-console.log("done");
-
+console.log(dataTest + "fuk yeh")
