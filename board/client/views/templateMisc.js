@@ -44,8 +44,6 @@ $.getJSON('https://api.gosquared.com/now/v3/overview?api_key=demo&site_token=GSN
 
 });
 
-
-
 /* - chopped for now
 
 console.log(names + two);
