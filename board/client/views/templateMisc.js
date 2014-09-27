@@ -59,10 +59,6 @@ for (var i = 1; i < 11; i++) {
   console.log(i);
 };
 
-
-
-
-
 //attempt to get into the html - doesn't work but doesn't break. doesn't add anything to the html.
 
 var cities = ["Melbourne", "Amman", "Helsinki", "London"];
